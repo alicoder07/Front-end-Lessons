@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container .box {
+  width: 400px;
+  height: 400px;
+  background-color: coral;
+  padding: 30px;
+}
+.container .box button {
+  padding: 15px 25px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.container .box button:hover {
+  border-radius: 10px;
+  transform: scale(1.2);
+}/*# sourceMappingURL=main.css.map */
